@@ -1,0 +1,58 @@
+# ===== 环境与密钥 =====
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+secrets/
+
+# ===== Node.js 依赖 =====
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===== 构建产物 =====
+dist/
+build/
+*.zip
+*.tar.gz
+*.rar
+
+# ===== 测试输出 =====
+test-output*.txt
+baseline-output.txt
+coverage/
+.nyc_output/
+
+# ===== IDE / 编辑器 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== 运行时日志 =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+
+# ===== 参赛/私人资料（不开放） =====
+初赛资料上传/
+初赛Demo帖子内容.md
+session id.txt
+cookie.txt
+post_to_forum.py
+check_status*.py
+fix_title_tag.py
+add_registration_link.py
+
+# ===== 操作系统 =====
+.directory
+$RECYCLE.BIN/
+ehthumbs.db
